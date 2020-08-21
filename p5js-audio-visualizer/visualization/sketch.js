@@ -35,7 +35,7 @@ function loaded(song) {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  song = loadSound("bigboss.wav", loaded);
+  song = loadSound("mellow.mp3", loaded);
   fft = new p5.FFT();
   peak = new p5.PeakDetect(2000, 20000, threshold, 10);
 
